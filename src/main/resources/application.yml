@@ -1,0 +1,7 @@
+server:
+  port: 20871
+
+rocketmq:
+  name-server: 10.20.2.70:9876
+  producer:
+    group: proc_group

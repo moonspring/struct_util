@@ -1,4 +1,4 @@
-package com.lzq.struct.util.diff.myerls;
+package com.lzq.struct.util.diff.myers;
 
 public class Snake {
         

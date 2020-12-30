@@ -1,9 +1,9 @@
-package com.lzq.struct.util.diff.myerls;
+package com.lzq.struct.util.diff.myers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyerlsDiff {
+public class MyersDiff {
 
 
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class MyerlsDiff {
         String a = "ABCABBACDAB";
         String b = "CBABACDAA";
 
-        MyerlsDiff.diff(a,b);
+        MyersDiff.diff(a,b);
     }
 
     public static void diff(String a,String b){
@@ -27,7 +27,7 @@ public class MyerlsDiff {
             for (int k = -d; k <= d; k += 2) {
                 System.out.print("k:" + k);
                 // down or right?
-                boolean down = (k == -d || (k != d && v[k - 1 + max] < v[k + 1 + max]));
+                boolean down = k == -d || (k != d && v[k - 1 + max] < v[k + 1 + max]);
                 int kPrev = down ? k + 1 : k - 1;
 
                 // start point
