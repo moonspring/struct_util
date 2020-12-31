@@ -1,4 +1,4 @@
-package com.lzq.struct.rocketmq.comsumer;
+package com.lzq.struct.util.rocketmq.comsumer;
 
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;

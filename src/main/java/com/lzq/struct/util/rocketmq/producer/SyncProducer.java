@@ -1,4 +1,4 @@
-package com.lzq.struct.rocketmq.producer;
+package com.lzq.struct.util.rocketmq.producer;
 
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.SendResult;
